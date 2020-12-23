@@ -5,9 +5,9 @@ from os.path import join
 import rasterio
 import numpy
 
-from . import settings
-from .decorators import rasterio_decorator
-from .image import BaseProcess
+from  import settings
+from decorators import rasterio_decorator
+from image import BaseProcess
 
 
 class NDVI(BaseProcess):
