@@ -29,7 +29,7 @@ except ImportError:
 
 from boto.s3.connection import S3Connection
 
-from .mixins import VerbosityMixin
+from mixins import VerbosityMixin
 
 STREAM = sys.stderr
 
