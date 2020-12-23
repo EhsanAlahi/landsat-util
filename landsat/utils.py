@@ -17,7 +17,7 @@ from datetime import datetime
 
 import geocoder
 
-from .mixins import VerbosityMixin
+from mixins import VerbosityMixin
 
 
 class Capturing(list):
