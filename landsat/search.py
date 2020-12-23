@@ -7,8 +7,8 @@ import json
 import time
 import requests
 
-from . import settings
-from .utils import three_digit, create_paired_list, geocode
+import settings
+from utils import three_digit, create_paired_list, geocode
 
 
 class Search(object):
